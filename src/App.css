@@ -1,0 +1,64 @@
+body{
+  background-color: bisque;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input{
+  width: 250px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+button{
+  width: 200px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+p{
+  text-align: center;
+  margin-bottom: 3px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.punainen{
+  color: red;
+  background-color: darkgray;
+  border: 1px solid red;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.vihrea{
+  color: green;
+  background-color: lightcyan;
+  border: 1px solid green;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.keltainen{
+  color: yellow;
+  background-color: black;
+  border: 1px solid yellow;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.punainen p, .vihrea p, .keltainen p{
+  margin: 5px;
+}
